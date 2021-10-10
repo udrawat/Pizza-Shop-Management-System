@@ -143,7 +143,7 @@ public class CFeedbackPanel extends javax.swing.JPanel {
                    
                     stm.executeUpdate();
 
-                    JOptionPane.showMessageDialog(this,"feedback send successful","Success",JOptionPane.INFORMATION_MESSAGE);
+                    JOptionPane.showMessageDialog(this,"Feedback send Successful","Success",JOptionPane.INFORMATION_MESSAGE);
                     //ltf1.setText("");
                     ltf2.setText("");
                    
