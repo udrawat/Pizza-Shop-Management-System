@@ -26,7 +26,7 @@ public class Admin extends javax.swing.JFrame {
     JPanel DynamicPanel;
     
     public Admin() {
-         addPizza = new AddPizza();
+         addPizza = new helloAddPizza();
         editPizza = new EditPizza();
         viewPizza = new ViewPizza();
         memberPanel  = new MemberPanel();
