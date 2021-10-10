@@ -54,7 +54,7 @@ public class CFeedbackPanel extends javax.swing.JPanel {
 
         setBackground(new java.awt.Color(159, 25, 25));
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Cambria Math", 1, 14)); // NOI18N
         jLabel1.setText("Feedback :");
 
         ltf2.setColumns(20);
@@ -69,7 +69,7 @@ public class CFeedbackPanel extends javax.swing.JPanel {
             }
         });
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 10)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Cambria Math", 1, 10)); // NOI18N
         jLabel2.setText("Member id :");
 
         ltf1.setEditable(false);
@@ -143,7 +143,7 @@ public class CFeedbackPanel extends javax.swing.JPanel {
                    
                     stm.executeUpdate();
 
-                    JOptionPane.showMessageDialog(this,"feedback send successful","Success",JOptionPane.INFORMATION_MESSAGE);
+                    JOptionPane.showMessageDialog(this,"Feedback send Successful","Success",JOptionPane.INFORMATION_MESSAGE);
                     //ltf1.setText("");
                     ltf2.setText("");
                    
